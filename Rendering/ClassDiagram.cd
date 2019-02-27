@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StaticAABBBox&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABAERAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>AABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myGeometry&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAAAAAAAAAAAIAAAAAAAKAkAAAAAAAEAA=</HashCode>
+      <FileName>myGeometry3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myCube&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAACAAAAAAAAIAAAAAAgAAAAAIAAAAAAAAAEAA=</HashCode>
+      <FileName>myGeometry3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mySphere&lt;T&gt;" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAIAAAAAAAAAAAAAAAAAAAAIACAABAAAAEAA=</HashCode>
+      <FileName>myGeometry3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myLightRay&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAgAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>myLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myLight&lt;T&gt;">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAAgAAAAABA=</HashCode>
+      <FileName>myLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myDotLight&lt;T&gt;">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAABAAAAAAAgAAAAAgAACAAAAQAAAAA=</HashCode>
+      <FileName>myLight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myVec4&lt;T&gt;" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAgAQAAAAAQIAwAAAAAAAIAAAABhAQAAAAA=</HashCode>
+      <FileName>myRendering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myMat4&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAACAQAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>myRendering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myFace3&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAAAAAAAAQAAAAAAAEAAAAAkAAAAAAAAAA=</HashCode>
+      <FileName>myRendering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="myRay&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAgAAAAQAAAAAAAAAAAAECAAAAAAAAAA=</HashCode>
+      <FileName>myRendering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="outPut" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OutPut.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="traceItem&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>myTrace.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
