@@ -19,13 +19,13 @@ public:
 	}
 	myScence(vector<myGeometry<T> > &GeoList_, myLight<T> & Light_)
 	{
-		GeoList = GeoList_l;
-		Light = Light_;
+		GeoList = GeoList;
+		Light = Light;
 	}
 
 	void set(vector<myGeometry<T> > &GeoList_, myLight<T> & Light_)
 	{
-		GeoList = GeoList_l;
+		GeoList = GeoList_;
 		Light = Light_;
 	}
 	//求出碰撞的物体,视线，几何体，min，max

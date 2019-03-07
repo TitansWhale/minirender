@@ -336,22 +336,22 @@ public:
 	}
 	inline const bool operator==(const myMat4 &mat)const
 	{
-		if (sgn(data[0] - vec.data[0]) != 0) return false;
-		else if (sgn(data[1] - vec.data[1]) != 0) return false;
-		else if (sgn(data[2] - vec.data[2]) != 0) return false;
-		else if (sgn(data[3] - vec.data[3]) != 0) return false;
-		else if (sgn(data[4] - vec.data[4]) != 0) return false;
-		else if (sgn(data[5] - vec.data[5]) != 0) return false;
-		else if (sgn(data[6] - vec.data[6]) != 0) return false;
-		else if (sgn(data[7] - vec.data[7]) != 0) return false;
-		else if (sgn(data[8] - vec.data[8]) != 0) return false;
-		else if (sgn(data[9] - vec.data[9]) != 0) return false;
-		else if (sgn(data[10] - vec.data[10]) != 0) return false;
-		else if (sgn(data[11] - vec.data[11]) != 0) return false;
-		else if (sgn(data[12] - vec.data[12]) != 0) return false;
-		else if (sgn(data[13] - vec.data[13]) != 0) return false;
-		else if (sgn(data[14] - vec.data[14]) != 0) return false;
-		else if (sgn(data[15] - vec.data[15]) != 0) return false;
+		if (sgn(data[0] - mat.data[0]) != 0) return false;
+		else if (sgn(data[1] - mat.data[1]) != 0) return false;
+		else if (sgn(data[2] - mat.data[2]) != 0) return false;
+		else if (sgn(data[3] - mat.data[3]) != 0) return false;
+		else if (sgn(data[4] - mat.data[4]) != 0) return false;
+		else if (sgn(data[5] - mat.data[5]) != 0) return false;
+		else if (sgn(data[6] - mat.data[6]) != 0) return false;
+		else if (sgn(data[7] - mat.data[7]) != 0) return false;
+		else if (sgn(data[8] - mat.data[8]) != 0) return false;
+		else if (sgn(data[9] - mat.data[9]) != 0) return false;
+		else if (sgn(data[10] - mat.data[10]) != 0) return false;
+		else if (sgn(data[11] - mat.data[11]) != 0) return false;
+		else if (sgn(data[12] - mat.data[12]) != 0) return false;
+		else if (sgn(data[13] - mat.data[13]) != 0) return false;
+		else if (sgn(data[14] - mat.data[14]) != 0) return false;
+		else if (sgn(data[15] - mat.data[15]) != 0) return false;
 		return true;
 	}
 
@@ -446,7 +446,7 @@ public:
 		p1 = p1_;
 		p2 = p2_;
 		p3 = p3_;
-		p4 = n_;
+
 	}
 	myFace3()
 	{

@@ -39,21 +39,22 @@ int main()
 	dev.init(800,600,&scence,&ca,&viewMesh);
 	dev.rendering(2, myVec4<T>(0, 0, 0, 0));
 
-	
+	 
 
 	initgraph(800, 600);
 
+#pragma omp parallel for
 	for (int i = 0; i < dev.screenWidth; i++)
 	{
+
 		for (int j = 0; j < dev.screenHight; j++)
 		{
 			int temp = -j + 599;
-			int x=dev.screenMemory[i*dev.screenHight + temp].toColorInt();
-			
+			int x = dev.screenMemory[i*dev.screenHight + temp].toColorInt();
+
 			putpixel(i, j, x);
 		}
 	}
-	
 	system("pause");
 	closegraph();
 }

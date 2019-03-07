@@ -51,7 +51,7 @@ public:
 	T a0;		//Ë¥¼õ¶È           1/a0+a1*d+a2*d^2
 	T a1;
 	T a2;
-
+	myVec4<T> color;
 	myDotLight(const myVec4<T> &color_ , const myVec4<T> &o_ , const T & a0_,const T &a1_,const T &a2_)
 	{
 		color = color_;
